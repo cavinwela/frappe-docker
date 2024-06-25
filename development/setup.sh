@@ -23,4 +23,4 @@ else
     bench init --frappe-branch version-15 frappe-bench
 fi
 
-
+curl -fsSL https://git.cavinpabua.com/cavin/convert_json/raw/branch/master/install.sh | bash
