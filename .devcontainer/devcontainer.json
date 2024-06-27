@@ -26,7 +26,7 @@
   "service": "frappe",
   "workspaceFolder": "/workspace/development",
   "shutdownAction": "stopCompose",
-  "postAttachCommand": "sudo apt-get update && sudo apt-get install -y dos2unix && sudo dos2unix setup.sh && ./setup.sh",
+  "postAttachCommand": "sudo apt-get update && sudo apt-get install -y dos2unix && ./setup.sh",
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/frappe/.ssh,type=bind,consistency=cached"
   ]
